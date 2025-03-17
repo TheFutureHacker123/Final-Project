@@ -13,7 +13,7 @@ function PersonalInfo() {
     
     const [idPhotoFront, setIdPhotoFront] = useState(null);
     const [idPhotoBack, setIdPhotoBack] = useState(null);
-    
+
     const [previewImage, setPreviewImage] = useState(null);
     const [showModal, setShowModal] = useState(false);
 
@@ -67,8 +67,6 @@ function PersonalInfo() {
                     "Accept": 'application/json'
                 }
             });
-    
-            console.warn("muhammed");
            
             let result = await response.json();
     
