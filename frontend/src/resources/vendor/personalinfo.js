@@ -13,6 +13,7 @@ function PersonalInfo() {
     
     const [idPhotoFront, setIdPhotoFront] = useState(null);
     const [idPhotoBack, setIdPhotoBack] = useState(null);
+    
     const [previewImage, setPreviewImage] = useState(null);
     const [showModal, setShowModal] = useState(false);
 
